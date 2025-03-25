@@ -1,0 +1,40 @@
+body {
+    font-family: "Times New Roman", serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#nama {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#kelas {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#listmatakuliah {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: normal; 
+}
+
+ol {
+    list-style-type: upper-roman;
+    display: inline-block;
+    text-align: left;
+}
+
+#mk-ketiga {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#quote {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 18px;
+}
