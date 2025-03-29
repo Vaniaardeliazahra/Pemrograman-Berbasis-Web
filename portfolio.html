@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Vania Ardelia Zahra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prestasi">Prestasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact-form">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="beranda" class="container text-center py-5 mt-5">
+        <img src="profil.jpg" class="img-fluid rounded-circle shadow-lg" alt="Foto Profil" width="300">
+        <div class="container">
+            <div class="profile-section py-5 mt-5">
+                <h2>Vania Ardelia Zahra</h2>
+                <h3>Mahasiswa Sistem Informasi | Semester 4 | Universitas Singaperbangsa Karawang</h3>
+            </div>
+            <div class="data-section">
+                <p><strong>Tempat, Tanggal Lahir:</strong> Bekasi, 3 Maret 2005</p>
+                <p><strong>Alamat:</strong> Jalan Sentosa Lestari VIII, Blok D12 No.28, Cikarang Selatan</p>
+                <p><strong>Email:</strong> vaniaardelia03@gmail.com</p>
+                <p><strong>Telepon:</strong> +62 857-1477-0997</p>
+                <p><strong>Keahlian:</strong> Manajemen Waktu, Problem Solving, Team Work</p>
+                <p><strong>Pendidikan:</strong> S1 Sistem Informasi - Universitas Singaperbangsa Karawang</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="container text-center py-5 mt-5">
+        <h2 class="mb-4">Portfolio</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-3 shadow">
+                    <p><strong>📝 Project Kuliah</strong></p>
+                    <h3>☎️ Perancangan Sistem Layanan Darurat</h3>
+                    <p>Platform pengintegrasian kontak bantuan darurat di Indonesia.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-3 shadow">
+                    <p><strong>📝 Project Kuliah</strong></p>
+                    <h3>💄 Desain Aplikasi Pencarian MUA</h3>
+                    <p>Aplikasi yang mempermudah pencarian MUA terdekat dengan kemampuan yang telah tersertifikasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prestasi" class="container text-center py-5 mt-5">
+        <h2 class="mb-4">Prestasi</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-3 shadow">
+                    <p><strong>📜 Online Course</strong></p>
+                    <h3>Pelatihan Digital Marketing dan E-commerce - Google</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-3 shadow">
+                    <p><strong>📜 Online Course</strong></p>
+                    <h3>Pelatihan Data Analysis with Python - IBM</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 p-3 shadow">
+                    <p><strong>📜 Online Course</strong></p>
+                    <h3>Learn to Speak Korean 1 - Yonsei University</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="container py-5 mt-5">
+        <h2>Contact Me</h2>
+        <p>If you need help, please contact us via the form below</p>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">Nama Depan</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Masukkan nama depan">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">Nama Belakang</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Masukkan nama belakang">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Pesan</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms">
+                <label class="form-check-label" for="terms">Saya setuju dengan syarat & ketentuan</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </section>
+    
+    <section id="contact" class="container py-5 mt-5 text-center">
+        <h2 class="mb-4">Contact</h2>
+        <p>Email: vaniaardelia03@gmail.com</p>
+        <p>Phone: +62 857-1477-0997</p>
+        <p>Address: Jalan Sentosa Lestari VIII, Blok D12 No.28, Cikarang Selatan</p>
+        <a href="#" class="btn btn-dark" onclick="scrollToTop(); return false;">Kembali ke Beranda</a>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
